@@ -1,0 +1,39 @@
+/* Dine styles her */
+form {
+  padding: 2rem;
+  background: hsl(264 30% 96%);
+  border-radius: 8px;
+}
+
+label {
+  font-size: larger;
+  font-weight: 700;
+}
+
+input {
+  flex-grow: 1;
+  display: grid;
+
+  width: 100%;
+  padding: 10px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(175, 175, 222);
+  color: white;
+  font-weight: 700;
+  border: black 2px solid;
+}
+
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 15px;
+  background-color: rgb(123, 123, 194);
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+}
